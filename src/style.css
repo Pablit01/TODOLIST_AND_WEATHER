@@ -1,0 +1,27 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #ff6d00;
+}
+.ee{
+    text-align: center;
+    padding: 10% 0 0 0;
+    font-size: 3rem;
+}
+.yy{
+    font-size: 2rem;
+    text-align: center;
+}
+.done{
+    margin: auto 0;
+}
+.weather-API{
+    position: absolute;
+    left: 33%;
+    top: 3%;
+    width: 70%;
+    
+    
+}
