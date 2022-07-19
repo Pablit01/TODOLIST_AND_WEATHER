@@ -206,6 +206,3 @@ const pogodaKret = new Weather();
 pogodaKret.getWeather()
   .then( (data) => pogodaKret.updateWeatherUI(data))
   .catch( err => console.log(err));
-
-
-console.log('kur zapiał')

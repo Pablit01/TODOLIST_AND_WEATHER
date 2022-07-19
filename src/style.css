@@ -1,9 +1,11 @@
 .container{
-    width: 100vw;
+    margin-left: 0px;
     height: 100vh;
     box-sizing: border-box;
     overflow-x: hidden;
+    padding: 0px;
     background-image: url('Gm1KRf-_cxD6STZM8ZwFisv1zWErXrcZAUaNk6aBEXk.webp');
+    background-size: cover;
 }
 .ee{
     text-align: center;
@@ -22,6 +24,4 @@
     left: 33%;
     top: 3%;
     width: 70%;
-    
-    
 }
