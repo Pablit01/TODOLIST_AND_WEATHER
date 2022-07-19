@@ -178,7 +178,9 @@ updateWeatherUI(data){
       <div class="weather-API  fst-italic fw-bold">
         Weather in Your city: ${data.name}<br>
         Temperature: ${Math.round(data.main.temp)}&#8451;<br>
-        Weather condition: ${data.weather[0].description}<br>
+        Weather condition: ${data.weather[0].description}
+        <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"></img>
+        <br>
         Change City:
         <form class="siemanko1">
           <input type="text" id="changeCity">
@@ -206,3 +208,4 @@ pogodaKret.getWeather()
   .catch( err => console.log(err));
 
 
+console.log('kur zapiał')
