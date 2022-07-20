@@ -22,11 +22,10 @@ class Weather{
   updateWeatherUI(data){
   
       this.selector.innerHTML = `
-        <div class="weather-API  fst-italic fw-bold">
+        <div class="weather-API  fst-italic fw-bold" style = "background-image: url(http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png)">
           Weather in Your city: ${data.name}<br>
           Temperature: ${Math.round(data.main.temp)}&#8451;<br>
           Weather condition: ${data.weather[0].description}
-          <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"></img>
           <br>
           Change City:
           <form class="siemanko1">

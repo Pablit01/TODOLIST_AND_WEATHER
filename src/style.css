@@ -23,7 +23,8 @@ body{
 }
 .weather-API{
     position: absolute;
-    left: 33%;
-    top: 3%;
-    width: 70%;
+    margin-top: 3%;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+    background-position: 110% 75%;
 }
