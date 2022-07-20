@@ -1,9 +1,11 @@
-.container{
-    margin-left: 0px;
+body{
+    width: 100vw;
     height: 100vh;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    padding: 0px;
+    overflow: hidden;
+}
+.container1{
+    width: 100vw;
+    height: 100vh;
     background-image: url('Gm1KRf-_cxD6STZM8ZwFisv1zWErXrcZAUaNk6aBEXk.webp');
     background-size: cover;
 }
