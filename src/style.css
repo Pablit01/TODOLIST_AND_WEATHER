@@ -27,4 +27,8 @@ body{
     margin-left: 5%;
     background-repeat: no-repeat;
     background-position: 110% 75%;
+    width: 180px;
+}
+#changeCity{
+    width: 90%;
 }
